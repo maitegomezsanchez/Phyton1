@@ -31,26 +31,37 @@
 # for i in compras:
 #     print(i)
 
-""" alumnos=["Arturo","Jukio","Dani"]
-a=input("cual es tu nombre")
-Cantidad=0
-for alumno in alumnos:
-    respuesta=input(f"Ha venido {alumno} a clase? (y/n) ")
-    if respuesta=="y": 
-        Cantidad=Cantidad+1
-print (f"{Cantidad}, alumno(s) están presentes hoy") """
+# alumnos=["Arturo","Jukio","Dani"]
+# a=input("cual es tu nombre")
+# Cantidad=0
+# for alumno in alumnos:
+#     respuesta=input(f"Ha venido {alumno} a clase? (y/n) ")
+#     if respuesta=="y": 
+#         Cantidad=Cantidad+1
+# print (f"{Cantidad}, alumno(s) están presentes hoy") """
 
-alumnos=[]
-MAX=10
-for i in range(MAX):
-    alumno=float( input("cual es tu nota?"))
-    alumnos.append(alumno)
-suma=0
+# alumnos=[]
+# MAX=10
+# for i in range(MAX):
+#     alumno=float( input("cual es tu nota?"))
+#     alumnos.append(alumno)
+# suma=0
 
 
-for alumno in alumnos:
-    suma=suma+alumno
+# for alumno in alumnos:
+#     suma=suma+alumno
    
-print(f"La media de las notas es {suma/len(alumnos)}")
-print(f"El valor máximo es {max(alumnos)}")
-print(f"El valor máximo es {min(alumnos)}")
+# print(f"La media de las notas es {suma/len(alumnos)}")
+# print(f"El valor máximo es {max(alumnos)}")
+# print(f"El valor máximo es {min(alumnos)}") """
+
+import random
+x=random.random()
+print(x)
+
+y=random.randint(10,100)
+print(y)
+frutas=["manzana","platano","kiwi"]
+z=random.choice(frutas)
+print(z)
+
