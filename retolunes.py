@@ -13,7 +13,7 @@ rangoedad=["niño","adolescente","joven","mediana edad","mayor"]
 accion = input(f"Tu edad es {i} (S,N)?")
 if accion.upper()=="N":
     for r in rangoedad:
-        accion= input(f"Eres rangoedad[r] (S,N)?")
+        accion= input(f"Eres {r} (S,N)?")
         if accion.upper()=="S":
             break
     
