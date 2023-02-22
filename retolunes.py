@@ -1,6 +1,6 @@
 import random
-min=5
-max=100
+#min=5
+#max=100
 #definición rangos
 #n =range(5,10)
 #ad=range(11,22)
