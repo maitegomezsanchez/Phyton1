@@ -5,6 +5,23 @@ def resta(n1,n2):
 
 def imprimir(lenguajeprog):
     print(f"{lenguajeprog} es un lenguaje de programacion")
+valido=false
+pasword= input("cual es la contraseña"?
+while valido=false:
+    lista=["pasword","contraseña"]
+    if len(nombre)<=5:
+        print "el nombre usuario amyot q 5"
+    if len(pasword)<=6
+        print ""
+    
+    if valido=true:
+        break
+    else:
+        pasword=input("cual es tu contraseña")
+def validar_usuario(nombre, apellido, usuario, contraseña):
+    if usuario.len
+def validar_contraseña(pasword)
+    pasword.len
 
 if __name__=='__main__':
     num1=float(input("inserta 1nº para realizar suma"))

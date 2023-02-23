@@ -8,7 +8,10 @@ if __name__=='__main__':
     else: 
        print(f"la resta {funciones.resta(num1,num2)} es menor o igual a 10")
   
-    link = "htpp://info.cern.ch/"
+    link = "http://info.cern.ch/"
     r=requests.get(link)
     print(r.status_code) #si el resultado es 200 es pq ha encontrado la pagina
     html=r.text
+    print(html)
+    html=r.text.replace("Learn about CERN","just DO IT")
+    print(html)
