@@ -5,6 +5,8 @@ def resta(n1,n2):
 
 def imprimir(lenguajeprog):
     print(f"{lenguajeprog} es un lenguaje de programacion")
+
+
 valido=false
 pasword= input("cual es la contraseña"?
 while valido=false:
